@@ -1,0 +1,38 @@
+.cutaway__title {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 0;
+
+  /*font-size: 64px;
+  line-height: 74px;*/
+
+  max-width: 820px;
+
+  z-index: 1;
+}
+
+@media screen and (max-width: 500px){
+  .cutaway__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .cutaway__title {
+    font-size: 56px;
+    line-height: 68px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .cutaway__title {
+    font-size: 64px;
+    line-height: 74px;
+  } 
+}

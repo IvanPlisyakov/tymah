@@ -1,0 +1,48 @@
+@import url(./__color/kitchen__color.css);
+@import url(./__color/_input/kitchen__color_input_black.css);
+@import url(./__color/_input/kitchen__color_input_white.css);
+@import url(./__colors/kitchen__colors.css);
+@import url(./__column/kitchen__column.css);
+@import url(./__description/kitchen__description.css);
+@import url(./__image/kitchen__image.css);
+@import url(./__image/_number/kitchen__image_number_one.css);
+@import url(./__images/kitchen__images.css);
+@import url(./__order/kitchen__order.css);
+@import url(./__photo/kitchen__photo.css);
+@import url(./__plate/kitchen__plate.css);
+@import url(./__product/kitchen__product.css);
+@import url(./__products/kitchen__products.css);
+@import url(./__text/kitchen__text.css);
+@import url(./__title/kitchen__title.css);
+
+@import url(./n/one.css);
+@import url(./n/two.css);
+@import url(./n/three.css);
+@import url(./n/four.css);
+@import url(./n/five.css);
+@import url(./n/six.css);
+
+.kitchen {
+  background-color: #EAE6C9;
+}
+
+@media screen and (max-width: 500px){
+  .kitchen {
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .kitchen {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .kitchen {
+    padding-top: 90px;
+    padding-bottom: 130px;
+  } 
+}

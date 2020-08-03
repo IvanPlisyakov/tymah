@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px){
+  .underline_margin-bottom_M {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .underline_margin-bottom_M {
+    margin-bottom: 100px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .underline_margin-bottom_M {
+    margin-bottom: 130px;
+  } 
+}

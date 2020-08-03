@@ -1,0 +1,31 @@
+.section__subtitle {
+  color: white;
+  /*font-family: Gilroy;*/
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+}
+
+@media screen and (max-width: 500px){
+  .section__subtitle  {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .section__subtitle  {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .section__subtitle  {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 48px;
+  } 
+}

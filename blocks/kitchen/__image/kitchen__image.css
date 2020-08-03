@@ -1,0 +1,23 @@
+.kitchen__image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 500px){
+  .kitchen__image {
+
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .kitchen__image {
+
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .kitchen__image {
+
+  } 
+}

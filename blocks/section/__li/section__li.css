@@ -1,0 +1,34 @@
+.section__li {
+}
+
+@media screen and (max-width: 500px){
+  .section__li {
+    margin-bottom: 14px;
+  }
+
+  .section__li:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .section__li {
+    margin-bottom: 20px;
+
+  } 
+
+  .section__li:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1184px) {
+  .section__li {
+    margin-bottom: 30px;
+
+  } 
+
+  .section__li:last-of-type {
+    margin-bottom: 0;
+  }
+}

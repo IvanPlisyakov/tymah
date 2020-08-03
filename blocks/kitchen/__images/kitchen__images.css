@@ -1,0 +1,19 @@
+.kitchen__images {border: 1px solid red;
+  display: grid;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px){
+  .kitchen__images {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .kitchen__images {
+    grid-template-columns:  1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  
+  } 
+}

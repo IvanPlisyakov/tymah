@@ -1,0 +1,32 @@
+.underline__prefix {
+  user-select: none;
+  color: white;
+  line-height: 10px;
+  border-right: 1px solid white;
+  border-radius: 1px;
+  align-self: center;
+}
+
+@media screen and (max-width: 500px){
+  .underline__prefix {
+    line-height: 30px;
+    font-size: 30px;
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .underline__prefix {
+    line-height: 35px;
+    font-size: 35px;
+    width: 18px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .underline__prefix {
+    line-height: 50px;
+    font-size: 50px;
+    width: 20px;
+  } 
+}

@@ -1,0 +1,26 @@
+.header__column {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
+  max-width: 1440px;
+}
+
+@media screen and (max-width: 500px){
+  .header__column {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .header__column {
+    width: 80%;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .header__column {
+    width: 75%;
+  } 
+}

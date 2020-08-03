@@ -1,0 +1,27 @@
+.kitchen__colors {border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px){
+  .kitchen__colors {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .kitchen__colors {
+    width: 40%;
+    min-width: 350px;
+    margin-bottom: 30px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .kitchen__colors {
+    width: 400px;
+    margin-bottom: 40px;
+  } 
+}

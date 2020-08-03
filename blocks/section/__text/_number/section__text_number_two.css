@@ -1,0 +1,27 @@
+.section__text_number_two {
+
+}
+
+@media screen and (max-width: 500px){
+  .section__text_number_two {
+    align-self: end;
+    justify-self: end;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .section__text_number_two {
+
+
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .section__text_number_two {
+
+  } 
+}

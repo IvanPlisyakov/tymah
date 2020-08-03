@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px){
+  .section_padding-bottom_XL {
+    padding-bottom: 160px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .section_padding-bottom_XL {
+    padding-bottom: 310px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .section_padding-bottom_XL {
+    padding-bottom: 350px;
+  } 
+}

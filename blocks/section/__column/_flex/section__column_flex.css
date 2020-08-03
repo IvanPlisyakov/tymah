@@ -1,0 +1,8 @@
+@media screen and (min-width: 865px) {
+  .section__column_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 325px;
+  } 
+}

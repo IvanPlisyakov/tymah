@@ -1,0 +1,12 @@
+/*@import url(./__column/concept__column.css);
+@import url(./__li/concept__li.css);
+@import url(./__subtitle/concept__subtitle.css);
+@import url(./__text/concept__text.css);
+@import url(./__text/_number/concept__text_number_one.css);
+@import url(./__text/_number/concept__text_number_two.css);
+@import url(./__title/concept__title.css);
+@import url(./__ul/concept__ul.css);*/
+
+.concept {
+  background-color: #575E4E;
+}

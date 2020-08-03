@@ -1,0 +1,30 @@
+.section__text {
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  margin: 0;
+  display: inline;
+}
+
+@media screen and (max-width: 500px){
+  .section__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .section__text {
+    font-size: 16px;
+    line-height: 24px;
+
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .section__text {
+    font-size: 18px;
+    line-height: 26px;
+
+  } 
+}

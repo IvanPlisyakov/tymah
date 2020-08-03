@@ -1,0 +1,31 @@
+@import url(./__line/underline__line.css);
+@import url(./__line/_color/underline__line_color_black.css);
+@import url(./__prefix/underline__prefix.css);
+@import url(./__prefix/_color/underline__prefix_color_black.css);
+@import url(./_margin-bottom_XL/underline_margin-bottom_XL.css);
+@import url(./_margin-bottom_XL/underline_margin-bottom_M.css);
+
+.underline {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px){
+  .underline {
+    grid-template-rows: 30px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .underline {
+    grid-template-rows: 35px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .underline {
+    grid-template-rows: 50px;
+  } 
+}

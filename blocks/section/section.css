@@ -1,0 +1,41 @@
+@import url(./__column/section__column.css);
+@import url(./__column/_flex/section__column_flex.css);
+@import url(./__li/section__li.css);
+@import url(./__li/_flex/section__li_flex.css);
+@import url(./__link/section__link.css);
+@import url(./__subtitle/section__subtitle.css);
+@import url(./__text/section__text.css);
+@import url(./__text/_color/section__text_color_black.css);
+@import url(./__text/_number/section__text_number_one.css);
+@import url(./__text/_number/section__text_number_two.css);
+@import url(./__title/section__title.css);
+@import url(./__title/_color/section__title_color_black.css);
+@import url(./__title/_font-size/section__title_font-size_S.css);
+@import url(./__ul/section__ul.css);
+@import url(./__ul/_flex/section__ul_flex.css);
+@import url(./_padding-bottom_XL/section_padding-bottom_XL.css);
+
+/*.section {
+  
+}*/
+
+@media screen and (max-width: 500px){
+  .section {
+    padding-top: 90px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .section {
+    padding-top: 90px;
+    padding-bottom: 160px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .section {
+    padding-top: 90px;
+    padding-bottom: 180px;
+  } 
+}
