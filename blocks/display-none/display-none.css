@@ -1,0 +1,12 @@
+/*@keyframes remove-opacity {
+  from {
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+  }
+}*/
+
+.display-none {
+  display: none;
+}

@@ -1,31 +1,40 @@
+@import url(./__column/underline__column.css);
+@import url(./__hover/underline__hover.css);
 @import url(./__line/underline__line.css);
 @import url(./__line/_color/underline__line_color_black.css);
+@import url(./__link/underline__link.css);
+@import url(./__link/_color/underline__link_color_black.css);
+@import url(./__logo/underline__logo.css);
+@import url(./__logo/_color/underline__logo_color_black.css);
+
 @import url(./__prefix/underline__prefix.css);
 @import url(./__prefix/_color/underline__prefix_color_black.css);
-@import url(./_margin-bottom_XL/underline_margin-bottom_XL.css);
-@import url(./_margin-bottom_XL/underline_margin-bottom_M.css);
+
+@import url(./__stick/underline__stick.css);
+@import url(./__stick/_color/underline__stick_color_black.css);
+@import url(./__t/underline__t.css);
+@import url(./__t/_color/underline__t_color_black.css);
+@import url(./_margin-bottom/underline_margin-bottom_XL.css);
+@import url(./_margin-bottom/underline_margin-bottom_M.css);
+@import url(./display-none/dispaly-none.css);
 
 .underline {
-  display: grid;
-  column-gap: 10px;
-  grid-template-columns: min-content 1fr;
+  /*display: grid;*/
+  grid-template-columns: min-content min-content 1fr;
   align-items: center;
 }
 
-@media screen and (max-width: 500px){
-  .underline {
-    grid-template-rows: 30px;
-  }
+/*.underline + .underline__hover {
+  display: grid;
+
 }
 
-@media screen and (max-width: 1184px) and (min-width: 500px) {
-  .underline {
-    grid-template-rows: 35px;
-  } 
+.underline:hover {
+  display: none;
 }
 
-@media screen and (min-width: 1184px) {
-  .underline {
-    grid-template-rows: 50px;
-  } 
-}
+.underline__hover + .underline {
+  display: none;
+}*/
+
+

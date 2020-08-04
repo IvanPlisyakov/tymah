@@ -1,0 +1,27 @@
+.underline__stick {
+  background-image: url(../../../images/underline__stick_white.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 500px){
+  .underline__stick {
+    width: 15px;
+    height: 54px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .underline__stick {
+    width: 17px;
+    height: 63px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .underline__stick {
+    width: 22px;
+    height: 82px;
+  } 
+}

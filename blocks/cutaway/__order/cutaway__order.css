@@ -1,6 +1,7 @@
 .cutaway__order {
   color: white;
   font-weight: 600;
+  font-family: Gilroy;
   letter-spacing: 0.12em;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -9,16 +10,8 @@
   margin: 0;
   text-decoration: none;
   z-index: 1;
-  transform: scale(1, 1);
-  transition: ease-out 0.7s;
   align-self: center;
   justify-self: start;
-}
-
-.cutaway__order:hover {
-  transform: scale(1.05, 1.05);
-  opacity: 0.7;
-  transition: linear 0.4s;
 }
 
 @media screen and (max-width: 500px){

@@ -1,0 +1,27 @@
+.underline__logo {
+  background-image: url(../../../images/logo_white_underline.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 500px){
+  .underline__logo {
+    width: 150px;
+    height: 54px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .underline__logo {
+    width: 180px;
+    height: 65px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .underline__logo {
+    width: 228px;
+    height: 82px;
+  } 
+}

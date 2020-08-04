@@ -1,0 +1,30 @@
+.underline__hover {
+  /*display: grid;*/
+  grid-template-columns: min-content  1fr;
+  align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+  .underline__hover {
+    column-gap: 0px;
+  }
+}
+
+
+@media screen and (max-width: 725px) and (min-width: 450px){
+  .underline__hover {
+    column-gap: 3px;
+  }
+}
+
+@media screen and (max-width: 1360px) and (min-width: 725px) {
+  .underline__hover {
+    column-gap: 50px;
+  } 
+}
+
+@media screen and (min-width: 1360px) {
+  .underline__hover {
+    column-gap: 95px;
+  } 
+}

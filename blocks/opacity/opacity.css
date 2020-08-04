@@ -1,0 +1,35 @@
+@keyframes Sopacity {
+    from {
+      transform: scale(1,1);
+      opacity: 1;
+  }
+  to {
+      transform: scale(1.05, 1.05);
+      opacity: 0.7;
+  }
+}
+
+@keyframes Bopacity {
+  from {
+    transform: scale(1.05, 1.05);
+    opacity: 0.7;
+}
+to {
+  transform: scale(1,1);
+  opacity: 1;
+}
+}
+
+.opacity:hover {
+  animation-name: Sopacity;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.opacity:not(:hover) {
+  animation-name: Bopacity;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}

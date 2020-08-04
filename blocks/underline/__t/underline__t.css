@@ -1,0 +1,27 @@
+.underline__t {
+  background-image: url(../../../images/underline__T_white.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 500px){
+  .underline__t {
+    width: 45.5px;
+    height: 54px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .underline__t {
+    width: 54px;
+    height: 65px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .underline__t {
+    width: 69.5px;
+    height: 82px;
+  } 
+}

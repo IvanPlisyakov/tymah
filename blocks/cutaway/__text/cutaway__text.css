@@ -1,5 +1,7 @@
 .cutaway__text {
   color: white;
+  font-family: Gilroy;
+  letter-spacing: 0.12em;
   font-weight: 300;
   letter-spacing: 0.12em;
   grid-column-start: 2;

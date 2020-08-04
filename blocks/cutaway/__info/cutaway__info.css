@@ -1,12 +1,13 @@
 .cutaway__info {
   display: grid;
-  grid-template-columns: minmax(20px, 88px) fit-content(445px) minmax(min-content, 175px);
+  grid-template-columns: minmax(20px, 88px) fit-content(567px) minmax(min-content, 175px);
 
 
 }
 
 @media screen and (max-width: 500px){
   .cutaway__info {
+    grid-template-columns: minmax(20px, 88px) fit-content(167px) minmax(min-content, 175px);
     grid-auto-rows: minmax(120px, min-content)  min-content min-content;
     row-gap: 50px;
   }
@@ -14,6 +15,7 @@
 
 @media screen and (max-width: 1184px) and (min-width: 500px) {
   .cutaway__info {
+    grid-template-columns: minmax(20px, 88px) fit-content(453px) minmax(min-content, 175px);
     grid-auto-rows: minmax(136px, min-content)  min-content min-content;
     row-gap: 60px;
   } 
@@ -21,6 +23,7 @@
 
 @media screen and (min-width: 1184px) {
   .cutaway__info {
+    grid-template-columns: minmax(20px, 88px) fit-content(567px) minmax(min-content, 175px);
     grid-auto-rows: minmax(148px, min-content)  min-content min-content;
     row-gap: 70px;
   } 
