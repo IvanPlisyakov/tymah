@@ -135,25 +135,37 @@
           </ul>
         </div>
       </section>
-      <!--КУХНЯ
-      <section class="kitchen">
+      <!--КУХНЯ-->
+      <section class="kitchen"><a name="kitchen"></a>
         <div class="kitchen__column">
-          <div class="underline underline_margin-bottom_M">
-            <div class="underline__prefix underline__prefix_color_black">&middot;</div>
+          <div class="underline underline_margin-bottom_M display-grid" onclick="kitchenUnderlineNone()">
+            <div class="underline__t underline__t_color_black"></div>
+            <div class="underline__stick underline__stick_color_black"></div>
             <div class="underline__line underline__line_color_black"></div>
           </div>
-          <h2 class="kitchen__title">&middot;Т.Кухня</h2>
+          <div class="underline__hover underline_margin-bottom_M display-none" onclick="kitchenUnderlineGrid()">
+            <div class="underline__logo underline__logo_color_black"></div>
+            <nav class="underline__column">
+              <a class="underline__link opacity underline__link_color_black" href="#concept">.Концепция.</a>
+              <a class="underline__link opacity underline__link_color_black" href="#philosophy">Философия</a>
+              <a class="underline__link opacity underline__link_color_black" href="#">&middot;Т.Кухня</a>
+              <a class="underline__link opacity underline__link_color_black" href="#care">_Уход_</a>
+              <a class="underline__link opacity underline__link_color_black" href="#booking">Заказ—</a>
+              <a class="underline__link opacity underline__link_color_black" href="#instagram">Instagram·</a>
+            </nav>
+          </div>
+          <h2 class="section__title section__title_color_black">&middot;Т.Кухня</h2>
           <div class="kitchen__colors">
-            <p class="kitchen__color kitchen__color_input_white">Белая береза</p>
-            <p class="kitchen__color kitchen__color_input_black">Черная сосна</p>
+            <p class="kitchen__color kitchen__color_input_white opacity">Белая береза</p>
+            <p class="kitchen__color kitchen__color_input_black opacity">Черная сосна</p>
           </div>
           <div class="kitchen__images">
-            <img class="kitchen__image one" src="images/exemple.png">
-            <img class="kitchen__image two" src="images/exemple.png">
-            <img class="kitchen__image three" src="images/exemple.png">
-            <img class="kitchen__image four" src="images/exemple.png">
-            <img class="kitchen__image five" src="images/exemple.png">
-            <img class="kitchen__image six" src="images/exemple.png">
+            <img class="kitchen__image one" src="">
+            <img class="kitchen__image two" src="">
+            <img class="kitchen__image three" src="">
+            <img class="kitchen__image four" src="">
+            <img class="kitchen__image five" src="">
+            <img class="kitchen__image six" src="">
           </div>
           <div class="kitchen__text">
             <p class="kitchen__plate"></p>
@@ -183,7 +195,7 @@
           </div>
         </div>
       </section>
-      КУХНЯ-->
+      <!--КУХНЯ-->
       <section class="section care"><a name="care"></a>
         <div class="section__column">
           <div class="underline underline_margin-bottom_M display-grid" onclick="careUnderlineNone()">

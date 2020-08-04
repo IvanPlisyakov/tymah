@@ -7,15 +7,15 @@
 
 @media screen and (max-width: 500px){
   .underline__logo {
-    width: 150px;
-    height: 54px;
+    width: 100px;
+    height: 36px;
   }
 }
 
 @media screen and (max-width: 1184px) and (min-width: 500px) {
   .underline__logo {
-    width: 180px;
-    height: 65px;
+    width: 160px;
+    height: 58px;
   } 
 }
 

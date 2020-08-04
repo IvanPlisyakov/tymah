@@ -4,7 +4,7 @@ let underlineHover = document.querySelector(".underline__hover");*/
 let cutaway = document.querySelector(".cutaway");
 let concept = document.querySelector(".concept");
 let philosophy = document.querySelector(".philosophy");
-
+let kitchen = document.querySelector(".kitchen");
 let care = document.querySelector(".care");
 let booking = document.querySelector(".booking");
 let instagram = document.querySelector(".instagram");
@@ -81,13 +81,25 @@ function philosophyUnderlineGrid() {/*2*/
   underlineHover.classList.remove('display-grid');
 }
 
+/**/ 
+function kitchenUnderlineNone() {/*1*/
+  let underline = kitchen.querySelector(".underline");
+  let underlineHover = kitchen.querySelector(".underline__hover");
 
+  underline.classList.remove('display-grid');
+  underline.classList.add('display-none');
+  underlineHover.classList.remove('display-none');
+  underlineHover.classList.add('display-grid');
+}
+function kitchenUnderlineGrid() {/*2*/
+  let underline = kitchen.querySelector(".underline");
+  let underlineHover = kitchen.querySelector(".underline__hover");
 
-
-
-
-
-
+  underline.classList.add('display-grid');
+  underline.classList.remove('display-none');
+  underlineHover.classList.add('display-none');
+  underlineHover.classList.remove('display-grid');
+}
 
 
 function careUnderlineNone() {/*1*/

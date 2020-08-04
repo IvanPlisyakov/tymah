@@ -9,22 +9,22 @@
 
 @media screen and (max-width: 375px) {
   .underline__link {
-    font-size: 11px;
-    line-height: 12px;
+    font-size: 13px;
+    line-height: 15px;
   }
 }
 
 @media screen and (max-width: 500px) and (min-width: 375px){
   .underline__link {
-    font-size: 13px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 18px;
   }
 }
 
 @media screen and (max-width: 725px) and (min-width: 500px) {
   .underline__link {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 24px;
   }
 }
 

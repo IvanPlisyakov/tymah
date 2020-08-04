@@ -1,19 +1,35 @@
 .kitchen__images {border: 1px solid red;
   display: grid;
-  width: 100%;
+
 }
 
-@media screen and (max-width: 500px){
+@@media screen and (max-width: 500px){
   .kitchen__images {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr 2fr 1fr;
+
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 1184px) and (min-width: 500px) {
   .kitchen__images {
-    grid-template-columns:  1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 34px;
+  } 
+}
+
+@media screen and (max-width: 1684px) and (min-width: 1184px) {
+  .kitchen__images {
+    width: 1360px;
+    height: 430px;
+    grid-template-columns: repeat(6, 135.5px);
+    column-gap: 27px;
+  } 
+}
+
+@media screen and (min-width: 1684px) {
+  .kitchen__images {
+    width: 1360px;
+    height: 430px;
+    grid-template-columns: repeat(6, 198px);
+    column-gap: 34px;
   } 
 }

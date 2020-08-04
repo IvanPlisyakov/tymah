@@ -19,22 +19,38 @@
 
 
 .underline {
-  /*display: grid;*/
+  display: grid;
   grid-template-columns: min-content min-content 1fr;
   align-items: center;
 }
 
-/*.underline + .underline__hover {
-  display: grid;
-
+@media screen and (max-width: 375px) {
+  .underline {
+    height: 61px;
+  }
 }
 
-.underline:hover {
-  display: none;
+@media screen and (max-width: 500px) and (min-width: 375px){
+  .underline {
+    height: 70px;
+  }
 }
 
-.underline__hover + .underline {
-  display: none;
-}*/
+@media screen and (max-width: 725px) and (min-width: 500px) {
+  .underline {
+    height: 88px;
+  }
+}
 
+@media screen and (max-width: 1184px) and (min-width: 725px) {
+  .underline {
+    height: 63px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .underline {
+    height: 82px;
+  } 
+}
 

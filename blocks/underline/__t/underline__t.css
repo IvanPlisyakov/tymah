@@ -7,21 +7,21 @@
 
 @media screen and (max-width: 500px){
   .underline__t {
-    width: 45.5px;
-    height: 54px;
+    width: 30px;
+    height: 36px;
   }
 }
 
 @media screen and (max-width: 1184px) and (min-width: 500px) {
   .underline__t {
-    width: 54px;
-    height: 65px;
+    width: 48.5px;
+    height: 58px;
   } 
 }
 
 @media screen and (min-width: 1184px) {
   .underline__t {
-    width: 69.5px;
+    width: 69.3px;
     height: 82px;
   } 
 }
