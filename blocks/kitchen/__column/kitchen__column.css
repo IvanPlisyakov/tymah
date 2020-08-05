@@ -1,6 +1,7 @@
 .kitchen__column {
   margin: 0 auto 0 auto;
   max-width: 1440px;
+
 }
 
 @media screen and (max-width: 500px){

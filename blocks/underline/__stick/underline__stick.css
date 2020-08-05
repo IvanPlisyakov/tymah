@@ -7,15 +7,15 @@
 
 @media screen and (max-width: 500px){
   .underline__stick {
-    width: 15px;
-    height: 54px;
+    width: 10px;
+    height: 36px;
   }
 }
 
 @media screen and (max-width: 1184px) and (min-width: 500px) {
   .underline__stick {
-    width: 17px;
-    height: 63px;
+    width: 16px;
+    height: 58px;
   } 
 }
 

@@ -1,0 +1,42 @@
+.kitchen__photo {
+  /*width: 123px;
+  height: 123px;
+  width: 100%;
+  padding-bottom: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: cover;
+  background-image: url(../../../images/philosophy.jpeg);*/
+  /*background-image: url(../../../images/philosophy.jpeg);*/
+  /*object-fit: cover;*/
+
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 68%;
+  padding-bottom: 68%;
+  height: 68%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 500px){
+  .kitchen__photo {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .kitchen__photo {
+    margin-top: 35px;
+    margin-bottom: 25px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .kitchen__photo {
+    margin-top: 45px;
+    margin-bottom: 37px;
+  } 
+}

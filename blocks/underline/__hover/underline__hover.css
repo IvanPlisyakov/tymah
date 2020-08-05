@@ -2,8 +2,12 @@
   /*display: grid;*/
   grid-template-columns: min-content  1fr;
   align-items: center;
+  scale: (1,1);
 }
 
+.underline__hover:hover {
+
+}
 @media screen and (max-width: 450px) {
   .underline__hover {
     column-gap: 0px;

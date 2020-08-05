@@ -1,35 +1,43 @@
-.kitchen__images {border: 1px solid red;
-  display: grid;
-
+.kitchen__images {
+  grid-template-areas: 
+  "img1 img1 img2 img4 img4 img5"
+    "img1 img1 img3 img4 img4 img6";
+    margin: 0 auto 0 auto;
 }
 
-@@media screen and (max-width: 500px){
+@media screen and (max-width: 850px){
   .kitchen__images {
-
+    width: 80%;
+    grid-gap: 15px;
+    grid-template-areas: 
+    "img1 img1"
+    "img1 img1"
+    "img2 img3"
+    "img4 img4"
+    "img4 img4"
+    "img5 img6";
+    margin-bottom: 10px;
+    max-width: 450px;
   }
 }
 
-@media screen and (max-width: 1184px) and (min-width: 500px) {
+@media screen and (max-width: 1184px) and (min-width: 850px) {
   .kitchen__images {
-    grid-template-columns: repeat(6, 1fr);
-    column-gap: 34px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "img1 img1 img2 img4 img4 img5"
+    "img1 img1 img3 img4 img4 img6";
+    margin-bottom: 25px;
   } 
 }
 
-@media screen and (max-width: 1684px) and (min-width: 1184px) {
+@media screen and (min-width: 1184px) {
   .kitchen__images {
-    width: 1360px;
-    height: 430px;
-    grid-template-columns: repeat(6, 135.5px);
-    column-gap: 27px;
+    grid-gap: 30px;
+    grid-template-areas: 
+    "img1 img1 img2 img4 img4 img5"
+    "img1 img1 img3 img4 img4 img6";
+    margin-bottom: 39px;
   } 
 }
 
-@media screen and (min-width: 1684px) {
-  .kitchen__images {
-    width: 1360px;
-    height: 430px;
-    grid-template-columns: repeat(6, 198px);
-    column-gap: 34px;
-  } 
-}

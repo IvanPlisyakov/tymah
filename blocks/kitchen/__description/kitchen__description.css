@@ -1,0 +1,31 @@
+.kitchen__description {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.12em;
+}
+
+@media screen and (max-width: 500px){
+  .kitchen__description {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .kitchen__description {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .kitchen__description {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  } 
+}

@@ -1,0 +1,24 @@
+.kitchen__products {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 700px){
+  .kitchen__products {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 700px) {
+  .kitchen__products {
+    justify-content: space-evenly;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .kitchen__products {
+    justify-content: space-between;
+  } 
+}

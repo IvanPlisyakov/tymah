@@ -1,14 +1,15 @@
 @keyframes add-opacity {
   from {
-      opacity: 1;
+      opacity: 0.1;
   }
   to {
-      opacity: 0;
+      opacity: 1;
   }
 }
 
 .add-opacity {
-  animation-name: add-opacity;
+  /*animation-name: add-opacity;
   animation-duration: 1s;
-  animation-timing-function: linear;
+  animation-timing-function: linear;*/
+  animation: add-opacity 2s linear;
 }

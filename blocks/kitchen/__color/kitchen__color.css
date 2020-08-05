@@ -3,6 +3,8 @@
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.12em;
+  /*opacity: 0.1;*/
+  color: white;
 }
 
 @media screen and (max-width: 500px){

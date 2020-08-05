@@ -1,0 +1,26 @@
+.kitchen__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 650px){
+  .kitchen__text {
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 650px) {
+  .kitchen__text {
+    margin-bottom: 60px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .kitchen__text {
+    margin-bottom: 100px;
+  } 
+}

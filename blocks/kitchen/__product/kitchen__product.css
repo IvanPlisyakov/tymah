@@ -1,0 +1,23 @@
+.kitchen__product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px){
+  .kitchen__product {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 700px) {
+  .kitchen__product {
+    width: 25%;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .kitchen__product {
+    width: 19%;
+  } 
+}

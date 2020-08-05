@@ -136,8 +136,8 @@
         </div>
       </section>
       <!--КУХНЯ-->
-      <section class="kitchen"><a name="kitchen"></a>
-        <div class="kitchen__column">
+      <section class="kitchen kitchen_color_white"><a name="kitchen"></a>
+        <div class="section__column">
           <div class="underline underline_margin-bottom_M display-grid" onclick="kitchenUnderlineNone()">
             <div class="underline__t underline__t_color_black"></div>
             <div class="underline__stick underline__stick_color_black"></div>
@@ -156,41 +156,49 @@
           </div>
           <h2 class="section__title section__title_color_black">&middot;Т.Кухня</h2>
           <div class="kitchen__colors">
-            <p class="kitchen__color kitchen__color_input_white opacity">Белая береза</p>
-            <p class="kitchen__color kitchen__color_input_black opacity">Черная сосна</p>
+            <p class="kitchen__color kitchen__color_input_white kitchen__color_color_black opacity kitchen__active" onclick="kitchenBlackNone()">Белая береза</p>
+            <p class="kitchen__color kitchen__color_input_black kitchen__color_color_black opacity" onclick="kitchenWhiteNone()">Черная сосна</p>
           </div>
-          <div class="kitchen__images">
-            <img class="kitchen__image one" src="">
-            <img class="kitchen__image two" src="">
-            <img class="kitchen__image three" src="">
-            <img class="kitchen__image four" src="">
-            <img class="kitchen__image five" src="">
-            <img class="kitchen__image six" src="">
+          <div class="kitchen__images kitchen__images_white display-grid">
+            <img class="kitchen__image one" src="images/kitchen__image_white_one.png">
+            <img class="kitchen__image two" src="images/kitchen__image_white_two.png">
+            <img class="kitchen__image three" src="images/kitchen__image_white_three.png">
+            <img class="kitchen__image four" src="images/kitchen__image_white_one.png">
+            <img class="kitchen__image five" src="images/kitchen__image_white_two.png">
+            <img class="kitchen__image six" src="images/kitchen__image_white_three.png">
+          </div>
+          <div class="kitchen__images kitchen__images_black display-none">
+            <img class="kitchen__image one" src="images/kitchen__image_one.png">
+            <img class="kitchen__image two" src="images/kitchen__image_two.jpg">
+            <img class="kitchen__image three" src="images/kitchen__image_three.png">
+            <img class="kitchen__image four" src="images/kitchen__image_four.jpg">
+            <img class="kitchen__image five" src="images/kitchen__image_five.jpg">
+            <img class="kitchen__image six" src="images/kitchen__image_six.jpg">
           </div>
           <div class="kitchen__text">
-            <p class="kitchen__plate"></p>
-            <a class="kitchen__order" href="#"></a>
+            <p class="kitchen__plate">Изделие | [тарелка]   3000₽</p>
+            <a class="cutaway__order cutaway__order_color_black opacity" href="#">Заказать\\</a>
           </div>
           <div class="kitchen__products">
             <div class="kitchen__product">
-              <div class="kitchen__photo"></div>
-              <h2 class="kitchen__description"></h2>
+              <div class="kitchen__photo opacity kitchen__photo_number_one"></div>
+              <h2 class="kitchen__description opacity">Изделие | [тарелка]</h2>
             </div>
             <div class="kitchen__product">
-              <div class="kitchen__photo"></div>
-              <h2 class="kitchen__description"></h2>
+              <div class="kitchen__photo opacity kitchen__photo_number_one"></div>
+              <h2 class="kitchen__description opacity">Разделочная доска</h2>
             </div>
             <div class="kitchen__product">
-              <div class="kitchen__photo"></div>
-              <h2 class="kitchen__description"></h2>
+              <div class="kitchen__photo opacity kitchen__photo_number_one"></div>
+              <h2 class="kitchen__description opacity">Подставка под горячее</h2>
             </div>
             <div class="kitchen__product">
-              <div class="kitchen__photo"></div>
-              <h2 class="kitchen__description"></h2>
+              <div class="kitchen__photo opacity kitchen__photo_number_one"></div>
+              <h2 class="kitchen__description opacity">Нож для масла</h2>
             </div>
             <div class="kitchen__product">
-              <div class="kitchen__photo"></div>
-              <h2 class="kitchen__description"></h2>
+              <div class="kitchen__photo opacity kitchen__photo_number_one"></div>
+              <h2 class="kitchen__description opacity">Нож для масла мини·</h2>
             </div>
           </div>
         </div>
@@ -319,5 +327,6 @@
     </footer>
   </div>
   <script src="scripts/script_underline.js"></script>
+  <script src="scripts/script_kitchen.js"></script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+.kitchen__active {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 500px){
+  .kitchen__active {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 500px) {
+  .kitchen__active {
+    font-size: 24px;
+  } 
+}
+
+@media screen and (min-width: 1184px) {
+  .kitchen__active {
+    font-size: 26px;
+  } 
+}
